@@ -16,7 +16,7 @@ I'm a happy user of Overcast, but I didn't like how UI has a very small width an
 
 ## Install
 
-Install it from Chrome Web Store.
+Install it from [Chrome Web Store](https://chrome.google.com/webstore/detail/refined-overcast/oconjghjmgcochfckhnjecjohibjohdb).
 
 ## What's Changed?
 

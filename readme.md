@@ -20,7 +20,7 @@ Install it from [Chrome Web Store](https://chrome.google.com/webstore/detail/ref
 
 ## What's Changed?
 
-Right now this extension mainly extends page width and adjusts spacing and font sizes of the interface elements. [There are more ideas](https://github.com/vadimdemedes/refined-overcast) for this project, feel free to help out!
+Right now this extension mainly extends page width and adjusts spacing and font sizes of the interface elements. [There are more ideas](https://github.com/vadimdemedes/refined-overcast/issues) for this project, feel free to help out!
 
 - Extend page width and make content fill all that space
 - Hide "All Episodes" section on homepage, since list of podcasts is what I care about the most

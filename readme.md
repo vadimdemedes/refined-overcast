@@ -1,4 +1,14 @@
-# <img src="media/logo.svg" width="45" align="left"> Refined Overcast
+<p align="center">
+	<br>
+	<img src="media/logo.svg" width="64" align="center">
+</p>
+
+<h2 align="center">
+	Refined Overcast
+	<br>
+	<br>
+	<br>
+</h2>
 
 > Browser extension that improves [Overcast](https://overcast.fm) user interface
 

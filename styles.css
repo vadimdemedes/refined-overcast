@@ -40,8 +40,8 @@ h2:first-child, .episodecell {
 
 /* Make "Delete" button more visible and bold */
 .destructivebutton {
-	background: #fc1b0f;
-	color: #fff;
+	background: #fc1b0f !important;
+	color: #fff !important;
 }
 
 /* Align "Delete" button with podcast title */

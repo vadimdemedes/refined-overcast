@@ -3,40 +3,39 @@ body {
 }
 
 /* Make content fill all available space */
-body > div.container > div.content > div > div:first-child,
-body > div.container > div.content > div > div:last-child {
-	display: none !important;
+.pure-g .pure-u-1-5:empty {
+	display: none;
 }
 
-body > div.container > div.content > div > div:nth-child(2) {
+.pure-g .pure-u-1 {
 	width: 100% !important;
 }
 
 /* Hide "All Episodes" section on homepage */
-body > div.container > div.content > div > div:nth-child(2) > h2:first-child,
-body > div.container > div.content > div > div:nth-child(2) > a.episodecell {
-	display: none;
+h2:first-child, .episodecell {
+	display: none !important;
 }
 
 /* Remove large top margin from "Podcasts" section */
-body > div.container > div.content > div > div:nth-child(2) > h2 {
+.episodecell + h2, h2.centertext {
 	margin-top: 0 !important;
 }
 
 /* Add margin between podcast rows in "Podcasts" section */
-body > div.container > div.content > div > div:nth-child(2) > a.feedcell {
-	margin-bottom: 8px !important;
+.feedcell {
+	margin-bottom: 0.5rem;
 }
 
 /* Increase font size of podcast names in "Podcasts" section */
-body > div.container > div.content > div > div:nth-child(2) > a.feedcell div.title {
-	font-size: 20px !important;
+.feedcell .title {
+	font-size: 1.25rem;
 }
 
 /* Reduce size of podcast logo in player */
-div.fullart_container {
-	width: 300px !important;
-	margin: 40px auto 40px !important;
+.fullart_container {
+	max-width: 16rem;
+	margin: 0 auto 2.5rem;
+	margin-top: 2.5rem !important;
 }
 
 /* Make "Delete" button more visible and bold */
@@ -50,9 +49,13 @@ div.fullart_container {
 	margin-top: 0 !important;
 }
 
+#deletepodcastform + h2 {
+	line-height: 2.375rem;
+}
+
 /* Fix player appearance after we widened the page */
 #progressbar, #playcontrols_container, #speedcontrols {
-	width: 600px !important;
+	width: 37.5rem !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
 }
